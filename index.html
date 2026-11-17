@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Task Tracker</title>
+<link rel="apple-touch-icon" href="app-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tasks">
+<meta name="theme-color" content="#3c5370">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="tracker-base.css">
+<link rel="stylesheet" href="tracker-frame.css">
+<link rel="stylesheet" href="tracker-phone.css">
+<script>window.TRACKER_CONFIG = { version: "0.08" };</script>
+</head>
+<body>
+<div id="app" class="app boot"></div>
+<div id="toast"></div>
+<datalist id="alltags"></datalist>
+<script async src="lib-marked-4.3.0.min.js"></script>
+<script async src="lib-dompurify-3.0.6.min.js"></script>
+<script src="tracker-core.js"></script>
+<script>startup();</script>
+</body>
+</html>
